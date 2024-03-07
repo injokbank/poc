@@ -1,0 +1,118 @@
+.content {
+  position: relative;
+}
+
+.content .div {
+  align-self: stretch;
+  color: var(--theme-txt-txt-dark);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+}
+
+.content .desc-txt {
+  align-self: stretch;
+  color: var(--theme-txt-txt-1);
+  position: relative;
+  text-align: right;
+}
+
+.content .txt-2 {
+  color: var(--theme-txt-txt-dark);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.content.comp-desc-txt-link {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 85px;
+}
+
+.content.comp-txt {
+  align-items: flex-start;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.content.comp-desc-txt {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 68px;
+}
+
+.content .medium {
+  font-family: var(--r-15-font-family);
+  font-size: var(--r-15-font-size);
+  font-style: var(--r-15-font-style);
+  font-weight: var(--r-15-font-weight);
+  letter-spacing: var(--r-15-letter-spacing);
+  line-height: var(--r-15-line-height);
+}
+
+.content .small {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}
+
+.content .comp-0-desc-txt {
+  font-family: var(--r-12-font-family);
+  font-size: var(--r-12-font-size);
+  font-style: var(--r-12-font-style);
+  font-weight: var(--r-12-font-weight);
+  letter-spacing: var(--r-12-letter-spacing);
+  line-height: var(--r-12-line-height);
+}
+
+.content .comp-0-txt {
+  font-family: var(--r-12-font-family);
+  font-size: 15px;
+  font-weight: var(--r-12-font-weight);
+  letter-spacing: var(--r-12-letter-spacing);
+  line-height: var(--r-12-line-height);
+}
+
+.content .comp-0-desc-txt-link {
+  font-family: "Pretendard K Edition-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.content .size-small.comp-0-desc-txt-link {
+  font-size: 14px;
+}
+
+.content .comp-0-desc-txt-link.size-medium {
+  font-size: 15px;
+}
+
+.content .size-0-medium {
+  font-family: var(--r-15-font-family);
+  font-size: var(--r-15-font-size);
+  font-style: var(--r-15-font-style);
+  font-weight: var(--r-15-font-weight);
+  letter-spacing: var(--r-15-letter-spacing);
+  line-height: var(--r-15-line-height);
+}
+
+.content .size-0-small {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}

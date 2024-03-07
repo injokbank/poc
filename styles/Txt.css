@@ -1,0 +1,247 @@
+.txt {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.txt .contents {
+  position: relative;
+}
+
+.txt .btn-txt {
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.txt .underline {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.txt .btn-txt-2 {
+  color: var(--theme-txt-txt-dark);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.txt .line-chevron-right {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.txt .btn-txt-3 {
+  margin-top: -0.5px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.txt.on {
+  overflow: hidden;
+}
+
+.txt.sec.on {
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.txt.ter.on {
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.txt.pri.on {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.txt .show-ico-on {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: center;
+}
+
+.txt .show-underline-on {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txt .grade-pri.show-underline-off {
+  font-family: var(--r-16-font-family);
+  font-size: var(--r-16-font-size);
+  font-style: var(--r-16-font-style);
+  font-weight: var(--r-16-font-weight);
+  letter-spacing: var(--r-16-letter-spacing);
+  line-height: var(--r-16-line-height);
+}
+
+.txt .show-ico-off.show-underline-off {
+  margin-top: -0.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.txt .show-underline-off.disabled {
+  color: var(--theme-txt-txt-3);
+}
+
+.txt .grade-sec.show-underline-off.show-ico-off {
+  font-family: var(--r-15-font-family);
+  font-size: var(--r-15-font-size);
+  font-style: var(--r-15-font-style);
+  font-weight: var(--r-15-font-weight);
+  letter-spacing: var(--r-15-letter-spacing);
+  line-height: var(--r-15-line-height);
+}
+
+.txt .level-3-two.default.show-underline-off {
+  color: var(--theme-txt-txt-1);
+}
+
+.txt .show-ico-off.show-underline-off.grade-ter {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}
+
+.txt .level-3-one.default.show-underline-off.show-ico-off {
+  color: var(--theme-txt-txt-white);
+}
+
+.txt .grade-2-sec {
+  font-family: var(--r-15-font-family);
+  font-size: var(--r-15-font-size);
+  font-style: var(--r-15-font-style);
+  font-weight: var(--r-15-font-weight);
+  letter-spacing: var(--r-15-letter-spacing);
+  line-height: var(--r-15-line-height);
+}
+
+.txt .state-1-disabled {
+  color: var(--theme-txt-txt-3);
+}
+
+.txt .grade-2-pri {
+  font-family: var(--r-16-font-family);
+  font-size: var(--r-16-font-size);
+  font-style: var(--r-16-font-style);
+  font-weight: var(--r-16-font-weight);
+  letter-spacing: var(--r-16-letter-spacing);
+  line-height: var(--r-16-line-height);
+}
+
+.txt .grade-2-ter {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}
+
+.txt .level-6-one.state-1-default {
+  color: var(--theme-txt-txt-dark);
+}
+
+.txt .level-6-two.state-1-default {
+  color: var(--theme-txt-txt-1);
+}
+
+.txt .contents.grade-sec .btn-txt {
+  font-family: var(--r-15-font-family);
+  font-size: var(--r-15-font-size);
+  font-style: var(--r-15-font-style);
+  font-weight: var(--r-15-font-weight);
+  letter-spacing: var(--r-15-letter-spacing);
+  line-height: var(--r-15-line-height);
+}
+
+.txt .contents.disabled .btn-txt {
+  color: var(--theme-txt-txt-3);
+}
+
+.txt .contents.grade-pri .btn-txt {
+  font-family: var(--r-16-font-family);
+  font-size: var(--r-16-font-size);
+  font-style: var(--r-16-font-style);
+  font-weight: var(--r-16-font-weight);
+  letter-spacing: var(--r-16-letter-spacing);
+  line-height: var(--r-16-line-height);
+}
+
+.txt .contents.grade-ter .btn-txt {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}
+
+.txt .contents.level-3-one.default .btn-txt {
+  color: var(--theme-txt-txt-dark);
+}
+
+.txt .contents.level-3-two.default .btn-txt {
+  color: var(--theme-txt-txt-1);
+}
+
+.txt .contents.disabled .underline {
+  background-color: var(--theme-txt-txt-3);
+}
+
+.txt .contents.level-3-one.default .underline {
+  background-color: var(--theme-txt-txt-dark);
+}
+
+.txt .contents.level-3-two.default .underline {
+  background-color: var(--theme-txt-txt-1);
+}
+
+.txt .contents.grade-pri .btn-txt-2 {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}
+
+.txt .contents.grade-ter .btn-txt-2 {
+  font-family: var(--r-14-font-family);
+  font-size: var(--r-14-font-size);
+  font-style: var(--r-14-font-style);
+  font-weight: var(--r-14-font-weight);
+  letter-spacing: var(--r-14-letter-spacing);
+  line-height: var(--r-14-line-height);
+}
+
+.txt .contents.grade-sec .btn-txt-2 {
+  font-family: var(--r-15-font-family);
+  font-size: var(--r-15-font-size);
+  font-style: var(--r-15-font-style);
+  font-weight: var(--r-15-font-weight);
+  letter-spacing: var(--r-15-letter-spacing);
+  line-height: var(--r-15-line-height);
+}

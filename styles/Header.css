@@ -1,0 +1,67 @@
+.header {
+  background-color: var(--theme-surface-surface-brand-pn);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header .left {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 48px;
+}
+
+.header .line-chevron-left {
+  height: 24px !important;
+  left: 12px !important;
+  position: absolute !important;
+  top: 12px !important;
+  width: 24px !important;
+}
+
+.header .title {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: var(--theme-txt-txt-white);
+  display: -webkit-box;
+  font-family: var(--r-18-font-family);
+  font-size: var(--r-18-font-size);
+  font-style: var(--r-18-font-style);
+  font-weight: var(--r-18-font-weight);
+  height: 25px;
+  letter-spacing: var(--r-18-letter-spacing);
+  line-height: var(--r-18-line-height);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 231px;
+}
+
+.header .right {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 4px 0px 0px;
+  position: relative;
+  width: 48px;
+}
+
+.header .txt-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-left: -22px !important;
+  overflow: unset !important;
+  padding: 8px 12px !important;
+  width: 66px !important;
+}
+
+.header .design-component-instance-node {
+  color: var(--theme-txt-txt-white) !important;
+  text-align: right !important;
+}

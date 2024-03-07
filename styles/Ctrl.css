@@ -1,0 +1,34 @@
+.ctrl {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 24px 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.ctrl .class-3 {
+  flex: 1 !important;
+  white-space: unset !important;
+  width: unset !important;
+}
+
+.ctrl .class-4 {
+  display: flex !important;
+  width: 160px !important;
+}
+
+.ctrl .class-5 {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.ctrl.fixed {
+  flex-direction: column;
+}
+
+.ctrl.hug {
+  flex-direction: column;
+}

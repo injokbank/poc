@@ -1,0 +1,68 @@
+/*! reset */
+*,*::after,*::before{-webkit-box-sizing:border-box;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;font-size:10px;font-weight:400;line-height:1.15;word-break:break-all;word-wrap:break-word;letter-spacing:0}
+@media (max-width: 375px){
+html{font-size:calc(10px + 20 * ((100vw - 375px) / 750))!important}
+}
+html.font-large{font-size:70%!important}
+article,aside,audio,blockquote,body,canvas,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,input,legend,li,mark,nav,ol,p,pre,section,td,textarea,th,time,ul,video{margin:0;padding:0}
+body{color:#141414;background-color:#fff;font-size:1.6rem;font-family:'Pretendard K Edition',-apple-system,BlinkMacSystemFont,system-ui,Roboto,'Helvetica Neue','Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif;font-variant-numeric:tabular-nums}
+body *{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}
+body *:focus{outline:none}
+body a,body button{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;outline:none}
+img{border:0;border-style:none;vertical-align:top}
+button{border:0;background:none;padding:0;cursor:pointer;line-height:1.15}
+button,input,optgroup,select,textarea{margin:0;font-size:100%;font-family:inherit}
+table{border-collapse:collapse;border-spacing:0}
+fieldset{border:0}
+legend{color:#000}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;line-height:1}
+caption,hr,legend{width:0;height:0;font-size:1px;text-indent:-9999em;line-height:0}
+a{color:inherit;text-decoration:none;background-color:transparent;}
+a:visited span{border:inherit}
+
+[class*="ico-"]{display:inline-block;vertical-align:middle;background-repeat:no-repeat;background-position:center;background-size:contain}
+
+/*! component element CTA Button common */
+[class*="btn-lv"].divider-gray{background-color:#eee}
+[class*="btn-lv"].bg-coolgray2{background-color:#e6ebf5}
+[class*="btn-lv"].primary1{background-color:#17008c;color:#fff}
+[class*="btn-lv"].primary2{background-color:#b6f23d}
+[class*="btn-lv"].gray-arrow{background:#eee;padding:0 1.4rem;color:#141414}
+[class*="btn-lv"].gray-arrow .txt-lv01{display:block;width:100%;color:#141414}
+[class*="btn-lv"].gray-line{background:#fff;border:1px solid rgba(0, 0, 0, 0.1)}
+[class*="btn-lv"].gray-line .txt{color:#141414}
+[class*="btn-lv"].gray-line.left{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;text-align:left;background-color:transparent}
+[class*="btn-lv"].bg-green{background-color:#4ecf50}
+[class*="btn-lv"].bg-green .txt{color:#fff}
+[class*="btn-lv"].bg-blue{background-color:#0150ff}
+[class*="btn-lv"].bg-blue .txt{color:#fff}
+[class*="btn-lv"].bg-blue i{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}
+[class*="btn-lv"] [class*="ico-"]{margin-right:0.4rem}
+
+[class*="btn-lv"] .ico-arrow-upright{margin-top:-0.2rem}
+
+[class*="btn-lv"] [class*="txt"] + [class*="ico-"]{margin-right:0;margin-left:0.4rem}
+[class*="btn-lv"].transparent{background-color:transparent!important}
+[class*="btn-lv"] [class*="txt"]{line-height:initial}
+[class*="btn-lv"] .ico{pointer-events:none}
+/*! background-alpha */
+[class*="btn-lv"].black{background-color:rgba(0, 0, 0, 0.07)}
+[class*="btn-lv"].trans-black{background-color:#eee}
+[class*="btn-lv"].trans-black .txt{color:#17008c}
+
+.container-pop {
+    position: relative;
+  }
+.dimmed-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+  }

@@ -1,0 +1,49 @@
+.tag-background-dark {
+  align-items: center;
+  background-color: var(--theme-surface-surface-11);
+  border-radius: 999px;
+  display: inline-flex;
+  height: 20px;
+  justify-content: center;
+  padding: 2px 8px;
+  position: relative;
+}
+
+.tag-background-dark .text-wrapper {
+  color: var(--theme-txt-txt-white);
+  font-family: var(--r-11-font-family);
+  font-size: var(--r-11-font-size);
+  font-style: var(--r-11-font-style);
+  font-weight: var(--r-11-font-weight);
+  letter-spacing: var(--r-11-letter-spacing);
+  line-height: var(--r-11-line-height);
+  margin-top: -0.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tag-background-lime {
+  align-items: center;
+  background-color: var(--brandpl);
+  border-radius: 999px;
+  display: inline-flex;
+  height: 20px;
+  justify-content: center;
+  padding: 2px 8px;
+  position: relative;
+}
+
+.tag-background-lime .text-wrapper {
+  color: var(--theme-txt-txt-black);
+  font-family: var(--r-11-font-family);
+  font-size: var(--r-11-font-size);
+  font-style: var(--r-11-font-style);
+  font-weight: var(--r-11-font-weight);
+  letter-spacing: var(--r-11-letter-spacing);
+  line-height: var(--r-11-line-height);
+  margin-top: -0.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
